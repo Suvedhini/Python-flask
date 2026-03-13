@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_CREDENTIALS = credentials('dockerhub-cred-id')
-        IMAGE_NAME = 'give your id /flask-portfolio'
+        DOCKERHUB_CREDENTIALS = credentials('dockerhub-id')
+        IMAGE_NAME = 'suvedhini/Python-flask'
     }
 
     stages {
